@@ -1,4 +1,4 @@
-import Game from 'nona-core';
+import Engine from 'nona-core';
 import {
   renderer,
   components,
@@ -13,7 +13,7 @@ function exampleInit() {
 
   const WIDTH = 80;
   const HEIGHT = 30;
-  const game = new Game({
+  const engine = new Engine({
     renderer: renderer({
       attachPoint,
       width: WIDTH,
@@ -24,7 +24,7 @@ function exampleInit() {
     assemblages,
   });
 
-  game.createComponent({
+  engine.createComponent({
     name: 'Health',
     description: 'Simple integer counter for health',
     state: {
@@ -32,10 +32,10 @@ function exampleInit() {
     },
   });
 
-  const gameObjectAssemblage = game.getAssemblageByLabel('GameObject');
-  const ent1 = game.addEntity('Entity 1', gameObjectAssemblage);
+  const gameObjectAssemblage = engine.getAssemblageByLabel('GameObject');
+  const ent1 = engine.addEntity('Entity 1', gameObjectAssemblage);
 
-  game.addComponentToEntity('Health', ent1);
+  engine.addComponentToEntity('Health', ent1);
 
   function update({
     deltaTime,
@@ -72,7 +72,7 @@ function exampleInit() {
     componentData[transformDataId].y = newY;
   }
 
-  game.startGame();
+  engine.startGame();
 }
 
 function ready(fn) {
