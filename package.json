@@ -1,0 +1,22 @@
+{
+	"private": true,
+	"name": "nona",
+	"scripts": {
+		"build:core": "cd ./packages/nona-core; yarn build",
+		"build:ascii": "cd ./packages/nona-ascii; yarn build",
+		"build": "yarn run build:core; yarn run build:ascii",
+		"clean:core": "cd ./packages/nona-core; yarn run clean",
+		"clean:ascii": "cd ./packages/nona-ascii; yarn run clean",
+		"clean:wizard": "cd ./packages/nona-ascii; yarn run clean",
+		"clean": "rm -rf node_modules; yarn run clean:core; yarn run clean:ascii; yarn run clean:wizard",
+		"purge:core": "cd ./packages/nona-core; yarn run purge",
+		"purge:ascii": "cd ./packages/nona-ascii; yarn run purge",
+		"purge": "rm -rf node_modules; yarn run purge:core; yarn run purge:ascii"
+	},
+	"devDependencies": {
+		"lerna": "2.5.1"
+	},
+	"workspaces": [
+		"packages/*"
+	]
+}
