@@ -5,6 +5,17 @@
   "main": "cjs/index.js",
   "module": "es/index.js",
   "author": "Wolfgang Schuster",
+  "homepage": "https://github.com/wolfadex/nona/tree/master/packages/nona-ascii",
+  "repository": "https://github.com/wolfadex/nona/tree/master/packages/nona-ascii",
+  "bugs": "https://github.com/wolfadex/nona/issues",
+  "license": "Apache-2.0",
+  "keywords": [
+    "entity",
+    "component",
+    "game",
+    "engine",
+    "nona"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
