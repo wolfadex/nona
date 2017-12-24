@@ -1,5 +1,15 @@
 {
   "lerna": "2.5.1",
+  "exact": true,
+  "independent": true,
+  "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "commands": {
+    "publish": {
+      "ignore": [
+        "nona-the-wizard/*"
+      ]
+    }
+  }
 }

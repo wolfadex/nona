@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "nona-the-wizard",
   "version": "0.1.0",
   "description": "An example project using nona-core and nona-ascii",
