@@ -1,6 +1,6 @@
 {
   "name": "nona-core",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An entity-component-system",
   "main": "cjs/index.js",
   "module": "es/index.js",

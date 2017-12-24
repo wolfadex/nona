@@ -1,6 +1,6 @@
 {
   "name": "nona-ascii",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A renderer, components, and more to use with nona-core",
   "main": "cjs/index.js",
   "module": "es/index.js",
