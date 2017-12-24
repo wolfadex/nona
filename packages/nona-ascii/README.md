@@ -107,3 +107,5 @@ Takes an `integer` keyCode and returns a `boolean`.
 
 ##### keyIsUp(keyCode)
 Takes an `integer` keyCode and returns a `boolean`.
+
+Author: Wolfgang Schuster

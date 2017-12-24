@@ -111,3 +111,5 @@ data === {
   elapsedTime, // The amount of time in milliseconds since the `update` was first called
 }
 ```
+
+Author: Wolfgang Schuster
