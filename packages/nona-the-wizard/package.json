@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "nona-the-wizard",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An example project using nona-core and nona-ascii",
   "main": "index.js",
   "author": "Wolfgang Schuster",
@@ -13,8 +13,8 @@
     "build": "webpack"
   },
   "dependencies": {
-    "nona-ascii": "0.1.0",
-    "nona-core": "0.1.0"
+    "nona-ascii": "1.0.0",
+    "nona-core": "1.0.0"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
