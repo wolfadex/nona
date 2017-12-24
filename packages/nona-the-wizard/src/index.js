@@ -33,9 +33,9 @@ function exampleInit() {
   });
 
   const gameObjectAssemblage = engine.getAssemblageByLabel('GameObject');
-  const ent1 = engine.addEntity('Entity 1', gameObjectAssemblage);
+  const wizard = engine.addEntity('Wizard', gameObjectAssemblage);
 
-  engine.addComponentToEntity('Health', ent1);
+  engine.addComponentToEntity('Health', wizard);
 
   function update({
     deltaTime,
@@ -49,7 +49,7 @@ function exampleInit() {
     componentEntities = {},
     componentData = {},
   }) {
-    const transformDataId = entityComponents[ent1]['Transform'];
+    const transformDataId = entityComponents[wizard]['Transform'];
     let directionX = 0;
     let directionY = 0;
 
