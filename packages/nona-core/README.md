@@ -2,6 +2,7 @@
 A component-entity-system engine. Can be used for games and more!
 
 #### Basic Usage
+`yarn add nona-core` or `npm install --save nona-core`
 ```Javascript
 import Engine from 'nona-core';
 

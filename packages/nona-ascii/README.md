@@ -2,6 +2,7 @@
 A renderer for `nona-core` that renders in a browser what looks like a terminal output.
 
 #### Basic Usage
+`yarn add nona-ascii` or `npm install --save nona-ascii`
 ```Javascript
 import Engine from 'nona-core';
 import {
